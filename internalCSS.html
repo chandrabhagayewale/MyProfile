@@ -1,80 +1,99 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>
-        Internal CSS
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-       <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+      Internal CSS <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link
+      href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap"
+      rel="stylesheet">
     </title>
     <style>
-        h2 { color: brown;
+      body {
+        background-image: url(developer.png);
 
-        }
-        p {
-            color: green;
-            font-size: larger;
-            font-weight: bold;
-        }
+        background-size: cover;
+      }
+      h2 {
+        color: brown;
+        background-color: paleturquoise;
+      }
+      p {
+        color: green;
+        font-size: larger;
+        font-weight: bold;
+        border-radius: 20px;
+      }
     </style>
     <style>
-     .careerobjective{
-        color: rgb(155, 127, 155);
-        text-transform: uppercase;
-        font-family:Yellowtail; cursive;font-family: 'Yellowtail', cursive; ;
-     }
-     {
-        color: blueviolet;
-     }  
-     #dbug {color:cornflowerblue ;
+      .careerobjective{
+         color: rgb(155, 127, 155);
+         text-transform: uppercase;
+         font-family:font-family: 'Yellowtail', cursive;
+      }
 
-     } 
-     #object{ color: blue;
-          text-align: center;
-          }
-          h3{
-            border-style: solid;
-            border-width: 10px;
-            border-color: black;
-            border:solid 5px black ;
+      #dbug {color:cornflowerblue ;
 
-             padding-top:  30px;
-             padding-bottom: 50px;
-             padding-left: 50px;
-             margin-top: 50px;
+      }
+      #object{ color: blue;
+           text-align: center;
+           background-color: aqua;
+           }
+
+
+
+
+           #rols{
              margin-bottom: 50px;
-          }  
-          h2{
-            border-style: solid;
-             border: width 10px;
-             border-color: black;
-
-          }
+           }
+           #para{
+             margin-top: 100px;
+             width: 200px;
+             height: 100px;
+             border: 2px solid black;
+             background-color: goldenrod;
+             box-shadow: 10px 20px 30px red;
+           }
+           h2:hover {
+            color: forestgreen;
+           }
+           h2::after{
+            content:" after Rols And Responsibility";
+           }
     </style>
-    
-</head>
+  </head>
 
-<body>
-    <h2 id="object">Career Objective </h2>
-    <hr>
+  <body>
+    <h2 id="object">Career Objective</h2>
+    <hr />
     <p class="careerobjective">
-        A career objective explains your professional goals.<br> It is a brief description of not more
-        than two or three sentences.The recruiter needs to know that you are driven and dedicated  to
-        the position. <br>A career objective gives them the  clarity of what you are trying to achieve by
-        seeking employment in their company.
-
+      A career objective explains your professional goals.<br />
+      It is a brief description of not more than two or three sentences.The
+      recruiter needs to know that you are driven and dedicated to the position.
+      <br />A career objective gives them the clarity of what you are trying to
+      achieve by seeking employment in their company.
     </p>
 
-    <hr>
-    <h2> Professional Summary </h2>
+    <hr />
+    <h2>Professional Summary</h2>
     <p>
-       &nbsp;&nbsp;&nbsp;&nbsp; Experience in using Chrome Developer Tool for <span id="dbug">Debugging & Troubleshotting the code</span> <br>
-       &nbsp;&nbsp;&nbsp;&nbsp;     Knowledge of NodeJS<br>
-       &nbsp;&nbsp;&nbsp;&nbsp;   Ability to work with people at all levels in the program<br>
-       </p>
-       <h3>this is heading 3</h3>
-       <h2> This is heading 2</h2>
-       
-</body>
+      &nbsp;&nbsp;&nbsp;&nbsp; Experience in using Chrome Developer Tool for
+      <span id="dbug">Debugging & Troubleshotting the code</span> <br />
+      &nbsp;&nbsp;&nbsp;&nbsp; Knowledge of NodeJS<br />
+      &nbsp;&nbsp;&nbsp;&nbsp; Ability to work with people at all levels in the
+      program<br />
+    </p>
+
+    <h2 id="rols">Roles And Resposibilities</h2>
+    <p id="para">This is para</p>
+    <h2> Rols and Regulation</h2>
+    <br />
+    <marquee
+      direction="left"
+      width="800px"
+      height="30px"
+      behavior="sliding"
+      bgcolor="aqua"
+      >Hello</marquee
+    >
+  </body>
 </html>
